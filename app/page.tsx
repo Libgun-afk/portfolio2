@@ -1,3 +1,5 @@
+/** @format */
+
 "use client";
 
 import { navItems } from "@/data";
@@ -17,12 +19,12 @@ const Home = () => {
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems} />
         <Hero />
-        <Grid />
+        {/* <Grid />
         <RecentProjects />
         <Clients />
         <Experience />
         <Approach />
-        <Footer />
+        <Footer /> */}
       </div>
     </main>
   );
